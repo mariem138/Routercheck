@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color:rgb(68, 76, 78) ;
+}
+
+
+.wrapper{
+  display: grid !important;
+  grid-auto-flow: column !important;
+  overflow: auto hidden !important;
+  scroll-snap-type: x mandatory !important;
+  gap: 12px !important;
+  
+
+}
+.container-img{
+  border-radius: 15px;
+}
